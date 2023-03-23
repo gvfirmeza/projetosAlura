@@ -8,10 +8,14 @@ body {
   background-color: black;
   color: #dfd2d2;
 }
-strong {
+.titulo-destaque {
   color: #e61e1e;
 }
 img {
   border: 3px solid #e61e1e;
   border-radius: 10px;
+}
+.apresentação {
+  display : flex;
+  align-items: center;
 }
