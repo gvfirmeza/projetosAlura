@@ -3,6 +3,8 @@
    padding: 0;
 }
 body {
+  height: 100vh;
+  box-sizing: border-box;
   background-color: black;
   color: #dfd2d2;
 }
