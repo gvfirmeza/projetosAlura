@@ -18,13 +18,16 @@ img {
   border-radius: 10px;
 }
 .apresentacao{
-  margin: 10%;
+  margin: 10% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .apresentacao__conteudo{
   width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -51,6 +54,6 @@ img {
   padding: 21.5px 0px 21.5px 0px;
   text-decoration: none;
   color: black;
-  font-weight: 700;
+  font-weight: 800;
   font-family: 'Montserrat', sans-serif;
 }
