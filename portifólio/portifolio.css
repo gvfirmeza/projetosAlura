@@ -5,7 +5,6 @@
    padding: 0;
 }
 body {
-  height: 100vh;
   box-sizing: border-box;
   background-color: black;
   color: #dfd2d2;
@@ -18,13 +17,13 @@ body {
   border-radius: 10px;
 }
 .apresentacao{
-  margin: 10% 15%;
+  padding: 8% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .apresentacao__conteudo{
-  width: 615px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -72,4 +71,25 @@ body {
 
 .apresentacao__links__link:hover {
   background-color: #272727;
+}
+
+.rodape {
+  padding: 23px;
+  background-color: #e61e1e;
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 24px;
+}
+
+.cabecalho {
+
+}
+
+.cabecalho_menu {
+
+}
+
+.cabecalho_menu_link {
+  
 }
