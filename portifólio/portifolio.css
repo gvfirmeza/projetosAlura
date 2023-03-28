@@ -13,7 +13,7 @@ body {
 .titulo-destaque {
   color: #e61e1e;
 }
-img {
+.imagem {
   border: 3px solid #e61e1e;
   border-radius: 10px;
 }
@@ -42,18 +42,34 @@ img {
 
 .apresentacao__links {
   display: flex;
+  flex-direction: column;
   justify-content: space-between ;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+  font-family: 'Krona One' , sans-serif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .apresentacao__links__link {
-  background-color: #e61e1e;
-  width: 280px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 376px;
   text-align: center;
-  border-radius: 16px;
+  border: 3px solid #e61e1e;
+  border-radius: 10px;
   font-size: 24px;
   padding: 21.5px 0px 21.5px 0px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__link:hover {
+  background-color: #272727;
 }
