@@ -58,6 +58,11 @@ body {
   color: var(--txt-color);
 }
 
+.apresentacao__conteudo__texto__links {
+  text-decoration: none;
+  color: var(--sec-color);
+}
+
 .apresentacao__conteudo__titulo{
   font-size: 36px;
   font-family: var(--font-pri);
