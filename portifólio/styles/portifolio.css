@@ -68,6 +68,11 @@ body {
   font-family: var(--font-pri);
 }
 
+.apresentacao__conteudo__titulo2{
+  font-size: 32px;
+  font-family: var(--font-pri);
+}
+
 .titulo-destaque {
   color: var(--sec-color);
 }
