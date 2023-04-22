@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/reset.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="styles/style.css">
         <title>AluraBooks</title>
     </head>
@@ -50,6 +51,41 @@
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
         </section>
+        <section class="carrossel">
+            <h2 class=carrossel__titulo>Últimos Lançamentos</h2>
+
+            <div class="swiper">
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+
+                <div class="swiper-slide"><img src="imgs/livros/ApacheKafka.svg"></div>
+                <div class="swiper-slide"><img src="imgs/livros/Gestão2.svg"></div>
+                <div class="swiper-slide"><img src="imgs/livros/Javascript.svg"></div>
+                <div class="swiper-slide"><img src="imgs/livros/Nodejs.svg"></div>
+                <div class="swiper-slide"><img src="imgs/livros/ReactNative.svg"></div>
+                <div class="swiper-slide"><img src="imgs/livros/Tuning.svg"></div>
+
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
     </body>
 
 </html>
