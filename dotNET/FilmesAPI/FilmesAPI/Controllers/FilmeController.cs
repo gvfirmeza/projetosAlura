@@ -9,14 +9,20 @@ namespace FilmesApi.Controllers;
 public class FilmeController : ControllerBase
 {
 
-    private List<Filme> filmes = new List<Filme>();
+    private static List<Filme> filmes = new List<Filme>();
 
     [HttpPost]
     public void AdicionaFilme([FromBody] Filme filme)
     {
         filmes.Add(filme);
-        Console.WriteLine(filme.Titulo);
-        Console.WriteLine(filme.Genero);
-        Console.WriteLine(filme.Duracao);
+        // Console.WriteLine(filme.Titulo);
+        // Console.WriteLine(filme.Genero);
+        // Console.WriteLine(filme.Duracao);
+    }
+
+    [HttpGet]
+    public IEnumerable<Filme> RecuperaFilmes()
+    {
+        return filmes;
     }
 }
