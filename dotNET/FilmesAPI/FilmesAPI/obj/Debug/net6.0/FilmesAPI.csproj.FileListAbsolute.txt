@@ -31,3 +31,12 @@ D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\obj\Debug\net6.0\refint\FilmesAP
 D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\obj\Debug\net6.0\FilmesAPI.pdb
 D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\obj\Debug\net6.0\FilmesAPI.genruntimeconfig.cache
 D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\obj\Debug\net6.0\ref\FilmesAPI.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Humanizer.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\MySqlConnector.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
