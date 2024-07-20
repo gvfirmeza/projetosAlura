@@ -40,3 +40,5 @@ D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.Exten
 D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\MySqlConnector.dll
 D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\AutoMapper.dll
+D:\DEV\projetosAlura\dotNET\FilmesAPI\FilmesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
