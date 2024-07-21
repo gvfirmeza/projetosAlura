@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmesAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FilmesApi.Controllers.FilmeController.AdicionaFilme(FilmesApi.Data.Dtos.CreateFilmeDto)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="filmeDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmeController.RecuperaFilmes(System.Int32,System.Int32)">
+            <summary>
+            Recupera uma lista de filmes do banco de dados
+            </summary>
+            <param name="skip">Número de registros a serem ignorados</param>
+            <param name="take">Número máximo de registros a serem retornados</param>
+            <returns>Lista de filmes</returns>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmeController.RecuperaFilmesPorId(System.Int32)">
+            <summary>
+            Recupera um filme pelo seu ID
+            </summary>
+            <param name="id">ID do filme</param>
+            <returns>Detalhes do filme</returns>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmeController.AtualizaFilme(System.Int32,FilmesApi.Data.Dtos.UpdateFilmeDto)">
+            <summary>
+            Atualiza um filme pelo seu ID
+            </summary>
+            <param name="id">ID do filme</param>
+            <param name="filmeDto">Objeto com os campos a serem atualizados</param>
+            <returns>Status da operação</returns>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmeController.AtualizaFilmeParcial(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{FilmesApi.Data.Dtos.UpdateFilmeDto})">
+            <summary>
+            Atualiza parcialmente um filme pelo seu ID
+            </summary>
+            <param name="id">ID do filme</param>
+            <param name="patchFilme">Objeto com as alterações a serem aplicadas</param>
+            <returns>Status da operação</returns>
+        </member>
+        <member name="M:FilmesApi.Controllers.FilmeController.DeletaFilme(System.Int32)">
+            <summary>
+            Deleta um filme pelo seu ID
+            </summary>
+            <param name="id">ID do filme</param>
+            <returns>Status da operação</returns>
+        </member>
+    </members>
+</doc>
